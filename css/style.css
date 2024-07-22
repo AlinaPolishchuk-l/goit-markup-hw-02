@@ -1,7 +1,7 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #fff;
-  color: #2e2f42;
+  color: #434455;
   letter-spacing: 0.02em;
 }
 .logo {
@@ -17,6 +17,7 @@ body {
 .logo-part-one {
   color: #4d5ae5;
 }
+
 ul {
   list-style-type: none;
 }
@@ -34,6 +35,9 @@ ul {
   color: #404bbf;
   text-decoration: underline;
 }
+.contacts-container {
+  font-style: normal;
+}
 .contacts {
   font-weight: 400;
   font-size: 16px;
@@ -44,6 +48,9 @@ ul {
 .contacts:hover {
   color: #404bbf;
 }
+.contacts:focus {
+  color: #404bbf;
+}
 .container {
   background-color: #2e2f42;
 }
@@ -51,10 +58,12 @@ ul {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .button {
+  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -64,6 +73,9 @@ ul {
   cursor: pointer;
 }
 .button:hover {
+  background-color: #404bbf;
+}
+.button:focus {
   background-color: #404bbf;
 }
 .name-benefit {
@@ -78,18 +90,27 @@ ul {
   line-height: 150%;
   color: #434455;
 }
+.team-container {
+  background-color: #f4f4fd;
+}
 .section-name {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+}
+.team-list-image {
+  background-color: #ffffff;
 }
 .team-names {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .team-position {
   font-weight: 400;
@@ -101,6 +122,7 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .portfolio-item-class {
