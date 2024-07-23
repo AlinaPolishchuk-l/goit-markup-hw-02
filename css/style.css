@@ -12,10 +12,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #2e2f42;
-}
-.logo-part-one {
   color: #4d5ae5;
+}
+
+.logo-part-two {
+  color: #2e2f42;
 }
 
 ul {
@@ -29,6 +30,9 @@ ul {
   color: #2e2f42;
 }
 .link:hover {
+  color: #404bbf;
+}
+.link:focus {
   color: #404bbf;
 }
 .link:active {
